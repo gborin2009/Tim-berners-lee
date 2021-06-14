@@ -1,0 +1,86 @@
+body {
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 800px;
+}
+.tim{
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#welcome {
+    padding-top: 50px;
+    position: absolute;
+    height: 600px;
+    color: #FFFFFF;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(50deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    width: 100%;
+    z-index:9
+    
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+#name {
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+}
+
+.line {
+    height: 6px;
+    background-color:royalblue;
+    width: 150px;
+    margin: 8px auto;
+}
+
+p {
+    max-width: 650px;
+    margin: 25px auto;
+    font-size:30px;
+    font-family: 'Indie Flower', cursive;
+}
+.menu{
+list-style:none;
+position:fixed;
+top:10px;
+right:30px;
+z-index:10;
+background-color:aquamarine;
+
+}
+.link{
+float:left;
+font-size:18px;
+color: crimson;
+padding-left:10px;
+padding-right:10px;
+}
+.link:hover{
+font-size:22px;
+background-color: darkturquoise;
+}
+a{
+text-decoration: none;
+font-size:20px;
+}
